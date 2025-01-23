@@ -425,6 +425,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p class="footer-form-container-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-form-label" for="email-user">
+              <input
+                class="footer-form-label-input"
+                type="email"
+                name="email-user"
+                placeholder="E-mail"
+                id="email-user"
+              />
+            </label>
+            <button class="footer-form-btn" type="submit">
+              Subscribe
+              <svg class="footer-form-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -432,14 +452,12 @@
 
     <div class="backdrop is-open">
       <div class="modal">
-        <h2 class="modal-titel">
-          Leave your contacts and we will call you back
-        </h2>
         <button class="btn-close-modal" type="button">
           <svg class="btn-close-modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-btn-close"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="form" autocomplete="off">
           <div class="modal-wrapper">
             <label class="modal-label" for="user-name">Name </label>
@@ -461,7 +479,7 @@
               <input
                 class="modal-field-input"
                 type="tel"
-                phone="user-phone"
+                name="user-phone"
                 id="user-phone"
                 required
               />
@@ -475,7 +493,7 @@
               <input
                 class="modal-field-input"
                 type="email"
-                email="user-email"
+                name="user-email"
                 id="user-email"
                 required
               />
@@ -504,7 +522,7 @@
               />
               <label class="modal-checkbox-user" for="checkbox-user"
                 ><span class="modal-checkbox-castom">
-                  <svg class="modal-checked-icon" width="10" hight="8">
+                  <svg class="modal-checked-icon" width="10" height="8">
                     <use
                       href="./images/icons.svg#icon-checked"
                     ></use></svg></span
