@@ -475,7 +475,7 @@
             </div>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-wrapper">
             <label class="modal-label" for="user-phone">Phone</label>
             <div class="modal-field">
               <input
@@ -491,7 +491,7 @@
             </div>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-wrapper">
             <label class="modal-label" for="user-email">Email </label>
             <div class="modal-field">
               <input
@@ -511,8 +511,8 @@
             <label class="modal-label" for="comment-user">Comment</label>
             <textarea
               class="modal-texterea"
-              name="comment-user"
-              id="comment-user"
+              name="user-comment"
+              id="user-commen"
               placeholder="Text input"
               required
             ></textarea>
@@ -521,11 +521,13 @@
           <div class="modal-wrapper-checkbox">
             <input
               class="modal-checkbox visually-hidden"
-              id="checkbox-user"
+              name="user-privacy"
+              id="user-privacy"
               type="checkbox"
+              value="true"
               required
             />
-            <label class="modal-checkbox-user" for="checkbox-user"
+            <label class="modal-checkbox-label" for="user-privacy"
               ><span class="modal-checkbox-castom">
                 <svg class="modal-checked-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checked"></use></svg></span
